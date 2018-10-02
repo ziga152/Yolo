@@ -25,7 +25,7 @@ Rezultati: tekstovna datoteka sledenje.txt
 
 # Zagon
 
-Naložen je celoten projekt ki ga je moč zagnati. Zaradi prevelike velikosti datoteke, na repozitoriju manjka datoteka modelov razpoznavanja: https://drive.google.com/file/d/1uvXFacPnrSMw6ldWTyLLjGLETlEsUvcE/view?usp=sharing
+Naložen je celoten projekt ki ga je moč zagnati v Visual Studio 2015 ali novejše. Zaradi prevelike velikosti datoteke, na repozitoriju manjka datoteka modelov razpoznavanja: https://drive.google.com/file/d/1uvXFacPnrSMw6ldWTyLLjGLETlEsUvcE/view?usp=sharing
 
 
   ```
