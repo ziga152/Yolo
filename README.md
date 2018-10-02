@@ -8,7 +8,7 @@ Sprememba funkcionalnosti glavnega programa iz zajema sekvence slik iz kamere na
 
 Izris okvirjev okoli zaznaega objekta ter pripadajočo unikatno identifikacisjko številko(ID).
 
-Grafični prikaz verjettnosti detekcije objekta.
+Grafični prikaz verjetnosti detekcije objekta.
 
 Zapis pozicije zaznanega objekta v slikovnih točkah, pripadajoči ID in v katerem slikovnem okviru se je detekcija pojavila.
 Datoteka: sledenje.txt
