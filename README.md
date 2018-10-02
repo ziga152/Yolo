@@ -6,7 +6,7 @@ Prvi korak je bil prenos modela YOLO in sprememba razreda predikcije objektov v 
 
 Sprememba funkcionalnosti glavnega programa iz zajema sekvence slik iz kamere na branje videa iz datoteke. 
 
-Izris okvirjev okoli zaznaega objekta ter pripadajočo unikatno identifikacisjko številko(ID).
+Izris okvirjev okoli zaznanega objekta ter pripadajočo unikatno identifikacisjko številko(ID).
 
 Grafični prikaz verjetnosti detekcije objekta.
 
@@ -17,11 +17,11 @@ Potrebne izboljšave:
 Optimizacija parametrov sledenja objektom in detekcije objektov.
 Preverjanje vrednosti pozicije v slikovnih točkah(Določene točke imajo negativno vrednost kar ni mogoče. Predvidevam da gre za motnjo pri inicializaciji filtra sledenja  objetkom.)
 
-Podrobnejše preverjanje rezultov zanesljivosti detekcije objektov. Vrednost je ves čas 1, kar pa je praktično nemogoče in ne predstavlja kredibilnega podatka. Yolo.scores poda Tensor spremenljivko verjetnosti objekta, katere pa nisem uspel interpretirati. Tezave s pretvorbo tipa spremeljivk. Predvidevam nekompatibilnost različic knjižnic.
+Podrobnejše preverjanje rezultatov zanesljivosti detekcije objektov. Vrednost je ves čas 1, kar pa je praktično nemogoče in ne predstavlja kredibilnega podatka. Yolo.scores poda Tensor spremenljivko verjetnosti objekta, katere pa nisem uspel interpretirati. Težave s pretvorbo tipa spremeljivk. Predvidevam nekompatibilnost različic knjižnic.
 
 Modificirane datoteke: demo.py, yolo.py
 Rezultati: tekstovna datoteka sledenje.txt
-           video posnetek z dodanimi grafičnimi infomacijami output.avi
+           video posnetek z dodanimi grafičnimi informacijami output.avi
 
 # Zagon
 
